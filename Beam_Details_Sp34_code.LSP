@@ -24,7 +24,7 @@
 	(setq layercolor1 "86")
 	(setq layername2 "Beamsteel")
 	(setq layercolor2 "31")
-	(setq d (getdist "Enter the depth of the beam (in inches)"))
+	(setq d (getdist "Enter the depth of the beam"))
 	(setq b1 (getpoint "Pick a point outside"))
 	(setq x1 (car b1)
 	      x2 (+ x1 span)
